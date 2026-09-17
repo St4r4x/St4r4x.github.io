@@ -1,0 +1,12 @@
+<header class="site-nav">
+  <a class="brand" href="/{{ page.lang }}/">Arnaud Thery</a>
+  <nav>
+    <a href="/{{ page.lang }}/cv.html">CV</a>
+    <a href="/{{ page.lang }}/projects.html">{% if page.lang == "en" %}Projects{% else %}Projets{% endif %}</a>
+  </nav>
+  <a class="line-switch" href="{{ page.alt_url }}" aria-label="{% if page.lang == "en" %}Switch to French{% else %}Switch to English{% endif %}">
+    <span class="line-switch__current">{{ page.lang | upcase }}</span>
+    <span class="line-switch__arrow" aria-hidden="true">&#8646;</span>
+    <span class="line-switch__other">{% if page.lang == "en" %}FR{% else %}EN{% endif %}</span>
+  </a>
+</header>

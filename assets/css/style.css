@@ -1,0 +1,172 @@
+:root {
+  --ink: #0b1b33;
+  --paper: #f5f3ee;
+  --surface: #ffffff;
+  --line: #1e4fde;
+  --current: #ff6a13;
+  --muted: #9aa3b2;
+  --border: #d8d3c6;
+  --font-display: "Archivo", sans-serif;
+  --font-body: "Public Sans", sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  line-height: 1.5;
+}
+
+a { color: var(--line); }
+
+main { max-width: 52rem; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+
+/* Nav */
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 1.5rem;
+  border-bottom: 3px solid var(--ink);
+  flex-wrap: wrap;
+}
+.site-nav .brand {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 1.1rem;
+  color: var(--ink);
+  text-decoration: none;
+  margin-right: auto;
+}
+.site-nav nav { display: flex; gap: 1rem; }
+.site-nav nav a { color: var(--ink); text-decoration: none; font-weight: 700; }
+.site-nav nav a:hover { color: var(--line); }
+
+.line-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  padding: 0.3rem 0.7rem;
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-decoration: none;
+  color: var(--ink);
+  background: var(--surface);
+}
+.line-switch:hover { background: var(--line); color: var(--surface); border-color: var(--line); }
+.line-switch__current { color: var(--line); }
+.line-switch:hover .line-switch__current { color: var(--surface); }
+
+/* Footer */
+.site-footer {
+  padding: 1.5rem;
+  border-top: 3px solid var(--ink);
+  font-size: 0.9rem;
+  max-width: 52rem;
+  margin: 0 auto;
+}
+.contact a { color: var(--ink); }
+
+/* Home hero */
+.hero h1 {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(2.2rem, 6vw, 3.5rem);
+  margin: 1.5rem 0 0.25rem;
+}
+.hero__tagline {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--line);
+  margin: 0 0 1.5rem;
+}
+.hero__summary { max-width: 38rem; margin-bottom: 2rem; }
+.hero__ctas { display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2.5rem; }
+.button {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-weight: 700;
+  text-decoration: none;
+  padding: 0.6rem 1.1rem;
+  border: 2px solid var(--ink);
+  border-radius: 0.4rem;
+  color: var(--ink);
+}
+.button:hover { background: var(--ink); color: var(--paper); }
+
+/* Metro line */
+.metro-line {
+  list-style: none;
+  margin: 0 0 2.5rem;
+  padding: 0;
+  border-left: 6px solid var(--muted);
+  margin-left: 1.5rem;
+}
+.station { position: relative; padding: 0 0 2rem 2rem; }
+.station::before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 0.35rem;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--paper);
+  border: 4px solid var(--muted);
+}
+.station--interchange::before {
+  width: 24px;
+  height: 24px;
+  left: -15px;
+  border-width: 5px;
+}
+.station--current::before {
+  border-color: var(--current);
+  background: var(--current);
+  animation: pulse 2.4s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 0 0 4px rgba(255, 106, 19, 0.25); }
+  50% { box-shadow: 0 0 0 10px rgba(255, 106, 19, 0.12); }
+}
+.station summary {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+.station summary::-webkit-details-marker { display: none; }
+.station__label {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 1.15rem;
+}
+.station--current .station__label { color: var(--current); }
+.station__meta { color: var(--muted); font-size: 0.9rem; }
+.station__badge {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  background: var(--current);
+  color: var(--surface);
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+}
+.station__detail {
+  margin: 0.5rem 0 0;
+  padding: 0.75rem 1rem;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: 0.5rem;
+  max-width: 34rem;
+}
