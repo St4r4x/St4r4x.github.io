@@ -412,7 +412,7 @@ title: Accueil
 Run: `bundle exec jekyll build`
 Expected: exits 0, creates `_site/fr/index.html`.
 
-Run: `grep -c 'class="station--current"' _site/fr/index.html`
+Run: `grep -c 'station--current' _site/fr/index.html`
 Expected: `1`
 
 Run: `grep -c 'href="/en/"' _site/fr/index.html`
@@ -516,7 +516,7 @@ git commit -m "feat: add English home page"
 - Modify: `assets/css/style.css`
 
 **Interfaces:**
-- Produces: `.timetable`, `.timetable-row` (+ `__head`/`__period`/`__company`), `.skills-grid` class vocabulary that Task 5 (EN CV) reuses verbatim.
+- Produces: `.timetable` (+ `__intro`, and a plain `h2` rule), `.timetable-row` (+ `__head`/`__period`/`__company`), `.skills-grid`, `.edu-list`, `.cert-list` class vocabulary that Task 5 (EN CV) reuses verbatim.
 
 - [ ] **Step 1: Append the timetable styles to `assets/css/style.css`**
 
