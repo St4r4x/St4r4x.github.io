@@ -45,7 +45,7 @@ title: Accueil
         <span class="station__label">Missia</span>
         <span class="station__meta">AI/ML Engineer &middot; Septembre 2023&ndash;Octobre 2026</span>
       </summary>
-      <p class="station__detail">Sur ElderWatch, je construis l'outillage de calibrage et de mesure qui prouve que la détection fonctionne réellement : logs d'explication par décision (FALL_EXPLAIN, WALKING_EXPLAIN), vérité terrain frame par frame, seuils de significativité statistique avant de valider un réglage. J'ai aussi construit missia-qa, notre outil interne de labellisation, entièrement seul.</p>
+      <p class="station__detail">Sur ElderWatch, je construis l'outillage de calibrage et de mesure qui prouve que la détection fonctionne réellement : logs d'explication par décision, vérité terrain frame par frame, seuils de significativité statistique avant de valider un réglage. J'ai aussi construit missia-qa, notre outil interne de labellisation, entièrement seul.</p>
     </details>
   </li>
   <li class="station station--current">
