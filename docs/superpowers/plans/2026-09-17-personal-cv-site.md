@@ -38,7 +38,7 @@
 
 ```yaml
 title: Arnaud Thery
-description: "AI/ML Engineer — CV & Projects"
+description: "AI/ML Engineer, CV & Projects"
 url: "https://st4r4x.github.io"
 markdown: kramdown
 plugins: []
@@ -48,6 +48,7 @@ exclude:
   - docs
   - PRODUCT.md
   - README.md
+  - vendor
 ```
 
 - [ ] **Step 2: Write `Gemfile`**
