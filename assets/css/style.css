@@ -241,7 +241,9 @@ main { max-width: 52rem; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
   border-radius: 0.5rem;
   padding: 1.25rem;
   background: var(--surface);
+  min-width: 0;
 }
+.project-card code { overflow-wrap: break-word; }
 .project-card h3 { font-family: var(--font-display); font-weight: 900; margin: 0 0 0.5rem; }
 .project-card p { margin: 0 0 0.75rem; }
 .project-card__tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.5rem 0 0.75rem; padding: 0; list-style: none; }
@@ -267,4 +269,17 @@ main { max-width: 52rem; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
   color: var(--line);
   margin-left: 0.5rem;
   vertical-align: middle;
+}
+
+/* Small screens */
+@media (max-width: 32rem) {
+  .site-nav { padding: 0.75rem 1rem; gap: 1rem; }
+  main, .site-footer { padding-left: 1rem; padding-right: 1rem; }
+  .hero__ctas { flex-direction: column; }
+  .hero__ctas .button { text-align: center; }
+  .timetable-row__head, .timetable .edu-list li, .timetable .cert-list li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .correspondances { grid-template-columns: 1fr; }
 }
