@@ -68,8 +68,9 @@ Real, checkable content only (source: `diggo/config/cv.yaml`):
 - Projects with public repos: diggo, rag-lab, Kaggle Watson, Restaurant
   Analytics (live demo on Railway).
 - Two merged open-source contributions: mjpost/sacrebleu, castorini/pyserini.
-- Certifications (2025): Google Project Management, PSM I, CI/CD for ML,
-  LLM/MCP Fundamentals (Hugging Face), Google Cybersecurity, others.
+- Certifications: Claude Code 101 and Claude 101 (Anthropic, 2026), PSM I
+  (Scrum.org, 2026), Google Project Management, CI/CD for ML, LLM/MCP
+  Fundamentals (Hugging Face), Google Cybersecurity, others (2025).
 - Education: MSc in AI (Aflokkat/ESTIA, 2024–2026) plus prior RNCP
   certifications in AI/software development.
 

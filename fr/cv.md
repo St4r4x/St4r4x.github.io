@@ -80,8 +80,10 @@ title: CV
 <h2>Certifications</h2>
 
 <ul class="cert-list">
+  <li><span>Claude Code 101 &middot; Anthropic</span><span>2026</span></li>
+  <li><span>Claude 101 &middot; Anthropic</span><span>2026</span></li>
+  <li><span>Professional Scrum Master I (PSM I) &middot; Scrum.org</span><span>2026</span></li>
   <li><span>Google Project Management &middot; Google Digital Academy</span><span>2025</span></li>
-  <li><span>Professional Scrum Master I (PSM I) &middot; Scrum.org</span><span>2025</span></li>
   <li><span>Agile Scrum Master Workshop &middot; Udemy</span><span>2025</span></li>
   <li><span>Introduction to Docker &middot; DataCamp</span><span>2025</span></li>
   <li><span>CI/CD for Machine Learning &middot; DataCamp</span><span>2025</span></li>
