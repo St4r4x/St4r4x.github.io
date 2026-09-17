@@ -66,7 +66,7 @@ title: CV
 <h2>Education</h2>
 
 <ul class="edu-list">
-  <li><span>MSc in AI (Big Data, AI, Digital Humanities) &middot; Aflokkat / ESIA</span><span>2024&ndash;2026</span></li>
+  <li><span>MSc in AI (Big Data, AI, Digital Humanities) &middot; Aflokkat / ESTIA</span><span>2024&ndash;2026</span></li>
   <li><span>Web and AI Designer Certification &middot; Aflokkat / ESIA</span><span>2023&ndash;2024</span></li>
   <li><span>AI Developer Certification &middot; Aflokkat / ESIA</span><span>2022&ndash;2023</span></li>
 </ul>

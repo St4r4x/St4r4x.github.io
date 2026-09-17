@@ -244,7 +244,7 @@ main { max-width: 52rem; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
   min-width: 0;
 }
 .project-card code { overflow-wrap: break-word; }
-.project-card h3 { font-family: var(--font-display); font-weight: 900; margin: 0 0 0.5rem; }
+.project-card h2 { font-family: var(--font-display); font-weight: 900; margin: 0 0 0.5rem; }
 .project-card p { margin: 0 0 0.75rem; }
 .project-card__tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin: 0.5rem 0 0.75rem; padding: 0; list-style: none; }
 .project-card__tags li {
