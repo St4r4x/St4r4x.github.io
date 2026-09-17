@@ -9,9 +9,9 @@ title: Home
 
 <h1>Arnaud Thery</h1>
 
-<p class="hero__tagline">AI/ML Engineer at Missia. Before that, eight years managing a team at Fnac.</p>
+<p class="hero__tagline">AI/ML Engineer at Missia, after eight years leading a team at Fnac.</p>
 
-<p class="hero__summary">I build AI/ML systems in production: FastAPI services for LLM and computer vision inference, data pipelines, AWS infrastructure, real-time inference on edge devices. Before AI, I managed a team of 8 people for 8 years. That's still what serves me most day to day: prioritizing under constraint, communicating clearly, following through on a commitment.</p>
+<p class="hero__summary">I build AI/ML systems in production: FastAPI services for LLM and computer vision inference, data pipelines, AWS infrastructure, real-time inference on edge devices. Before AI, I managed a team of 8 people for 8 years. Those are still the skills I rely on most day to day: prioritizing under constraint, communicating clearly, following through on commitments.</p>
 
 <div class="hero__ctas">
   <a class="button" href="/en/cv.html">See the full CV &rarr;</a>
@@ -27,7 +27,7 @@ title: Home
         <span class="station__label">Fnac</span>
         <span class="station__meta">Department Manager &middot; 2015&ndash;2023</span>
       </summary>
-      <p class="station__detail">Up to 13 people (High Tech and after-sales service, 2 stores): active recruitment, ongoing training, cascading sales and services targets, inventory management (volume, shrinkage). Best sales figures relative to store size in my first two years.</p>
+      <p class="station__detail">Up to 13 people (High Tech and after-sales service, 2 stores): active recruitment, ongoing training, cascading sales and services targets, inventory management (volume, shrinkage). I delivered the best sales figures relative to store size in my first two years.</p>
     </details>
   </li>
   <li class="station">
@@ -55,7 +55,7 @@ title: Home
         <span class="station__badge">You are here</span>
         <span class="station__meta">Available immediately</span>
       </summary>
-      <p class="station__detail">I'm looking for a production AI/ML Engineer role. Curious how I apply? The Projects page covers diggo, the tool I built for exactly that.</p>
+      <p class="station__detail">I'm looking for a production AI/ML Engineer role. Curious how I job-hunt? The Projects page covers diggo, the tool I built for exactly that.</p>
     </details>
   </li>
 </ol>

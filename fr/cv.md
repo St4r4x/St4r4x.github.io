@@ -44,10 +44,10 @@ title: CV
     <span class="timetable-row__period">Avril 2015 &ndash; Septembre 2023</span>
   </div>
   <ul>
-    <li>Management de l'équipe High Tech et SAV sur 2 magasins, jusqu'à 13 personnes : recrutement actif, pilotage de la formation continue (avancement e-learning, débriefs produits après les salons)</li>
+    <li>Management de l'équipe High Tech et SAV sur 2 magasins, jusqu'à 13 personnes : participation active au recrutement, pilotage de la formation continue (avancement e-learning, débriefs produits après les salons)</li>
     <li>Déclinaison des objectifs de vente du directeur au niveau équipe : produits et services (assurances, extension de garantie)</li>
     <li>Pilotage du stock sur les deux axes challengés par le directeur : volumétrie et taux de démarque (produits dépréciés)</li>
-    <li>Meilleurs chiffres de vente rapportés à la taille du magasin sur mes deux premières années</li>
+    <li>Obtention des meilleurs chiffres de vente rapportés à la taille du magasin sur mes deux premières années</li>
   </ul>
 </div>
 
