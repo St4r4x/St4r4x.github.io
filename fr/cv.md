@@ -16,7 +16,7 @@ title: CV
 <div class="timetable-row">
   <div class="timetable-row__head">
     <span>AI/ML Engineer <span class="timetable-row__company">&middot; Missia &middot; Alternance</span></span>
-    <span class="timetable-row__period">Septembre 2023 &ndash; Présent</span>
+    <span class="timetable-row__period">Septembre 2023 &ndash; Octobre 2026</span>
   </div>
   <ul>
     <li>Services backend Python FastAPI en production : inférence LLM et modèles de vision, pipelines de données (embeddings, chunking), tests unitaires et d'intégration, CI/CD GitHub Actions</li>

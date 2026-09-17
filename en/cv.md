@@ -16,7 +16,7 @@ title: CV
 <div class="timetable-row">
   <div class="timetable-row__head">
     <span>AI/ML Engineer <span class="timetable-row__company">&middot; Missia &middot; Work-study</span></span>
-    <span class="timetable-row__period">September 2023 &ndash; Present</span>
+    <span class="timetable-row__period">September 2023 &ndash; October 2026</span>
   </div>
   <ul>
     <li>Fine-tuned LLMs/Transformers (HuggingFace Trainer API) and computer vision models (YOLOv8, VideoMAE) on AWS SageMaker Spot, reproducible experiments tracked in MLflow</li>

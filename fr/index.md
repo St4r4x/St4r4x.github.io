@@ -39,14 +39,23 @@ title: Accueil
       <p class="station__detail">Moteur de recherche sémantique en production (Django, sentence-transformers). Livré en 3 mois.</p>
     </details>
   </li>
+  <li class="station">
+    <details>
+      <summary>
+        <span class="station__label">Missia</span>
+        <span class="station__meta">AI/ML Engineer &middot; Septembre 2023&ndash;Octobre 2026</span>
+      </summary>
+      <p class="station__detail">Sur ElderWatch, je construis l'outillage de calibrage et de mesure qui prouve que la détection fonctionne réellement : logs d'explication par décision (FALL_EXPLAIN, WALKING_EXPLAIN), vérité terrain frame par frame, seuils de significativité statistique avant de valider un réglage. J'ai aussi construit missia-qa, notre outil interne de labellisation, entièrement seul.</p>
+    </details>
+  </li>
   <li class="station station--current">
     <details open>
       <summary>
-        <span class="station__label">Missia</span>
+        <span class="station__label">En recherche active</span>
         <span class="station__badge">Vous êtes ici</span>
-        <span class="station__meta">AI/ML Engineer &middot; depuis Septembre 2023</span>
+        <span class="station__meta">Disponible immédiatement</span>
       </summary>
-      <p class="station__detail">Sur ElderWatch, je construis l'outillage de calibrage et de mesure qui prouve que la détection fonctionne réellement : logs d'explication par décision (FALL_EXPLAIN, WALKING_EXPLAIN), vérité terrain frame par frame, seuils de significativité statistique avant de valider un réglage. J'ai aussi construit missia-qa, notre outil interne de labellisation, entièrement seul.</p>
+      <p class="station__detail">Je recherche un poste d'AI/ML Engineer en production. Curieux de voir comment j'y postule ? La page Projets présente diggo, l'outil que j'ai construit pour ça.</p>
     </details>
   </li>
 </ol>

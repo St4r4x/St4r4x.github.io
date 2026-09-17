@@ -39,14 +39,23 @@ title: Home
       <p class="station__detail">Production semantic search engine (Django, sentence-transformers). Shipped in 3 months.</p>
     </details>
   </li>
+  <li class="station">
+    <details>
+      <summary>
+        <span class="station__label">Missia</span>
+        <span class="station__meta">AI/ML Engineer &middot; September 2023&ndash;October 2026</span>
+      </summary>
+      <p class="station__detail">On ElderWatch, I build the calibration and measurement tooling that proves detection actually works: per-decision explain logs (FALL_EXPLAIN, WALKING_EXPLAIN), frame-accurate ground truth, and statistical significance bars before trusting a tuning change. I also built missia-qa, our internal labeling tool, entirely on my own.</p>
+    </details>
+  </li>
   <li class="station station--current">
     <details open>
       <summary>
-        <span class="station__label">Missia</span>
+        <span class="station__label">Actively looking</span>
         <span class="station__badge">You are here</span>
-        <span class="station__meta">AI/ML Engineer &middot; since September 2023</span>
+        <span class="station__meta">Available immediately</span>
       </summary>
-      <p class="station__detail">On ElderWatch, I build the calibration and measurement tooling that proves detection actually works: per-decision explain logs (FALL_EXPLAIN, WALKING_EXPLAIN), frame-accurate ground truth, and statistical significance bars before trusting a tuning change. I also built missia-qa, our internal labeling tool, entirely on my own.</p>
+      <p class="station__detail">I'm looking for a production AI/ML Engineer role. Curious how I apply? The Projects page covers diggo, the tool I built for exactly that.</p>
     </details>
   </li>
 </ol>
