@@ -46,7 +46,7 @@ title: Home
         <span class="station__badge">You are here</span>
         <span class="station__meta">AI/ML Engineer &middot; since September 2023</span>
       </summary>
-      <p class="station__detail">Production FastAPI services (LLM and vision inference), AWS infrastructure (SageMaker, ECS, Lambda), edge inference on Jetson Orin NX.</p>
+      <p class="station__detail">On ElderWatch, I build the calibration and measurement tooling that proves detection actually works: per-decision explain logs (FALL_EXPLAIN, WALKING_EXPLAIN), frame-accurate ground truth, and statistical significance bars before trusting a tuning change. I also built missia-qa, our internal labeling tool, entirely on my own.</p>
     </details>
   </li>
 </ol>
