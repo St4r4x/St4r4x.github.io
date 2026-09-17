@@ -7,7 +7,7 @@ title: Accueil
 
 <div class="hero">
 
-# Arnaud Thery
+<h1>Arnaud Thery</h1>
 
 <p class="hero__tagline">Ingénieur IA/ML chez Missia. Huit ans de management d'équipe avant ça, chez Fnac.</p>
 
