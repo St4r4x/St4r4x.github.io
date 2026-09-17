@@ -27,7 +27,7 @@ title: Home
         <span class="station__label">Fnac</span>
         <span class="station__meta">Department Manager &middot; 2015&ndash;2023</span>
       </summary>
-      <p class="station__detail">8 years managing a team of 8 people. Communication, prioritization, teaching under pressure.</p>
+      <p class="station__detail">Up to 13 people (High Tech and after-sales service, 2 stores): active recruitment, ongoing training, cascading sales and services targets, inventory management (volume, shrinkage). Best sales figures relative to store size in my first two years.</p>
     </details>
   </li>
   <li class="station">

@@ -27,7 +27,7 @@ title: Accueil
         <span class="station__label">Fnac</span>
         <span class="station__meta">Responsable de rayon &middot; 2015&ndash;2023</span>
       </summary>
-      <p class="station__detail">8 ans de management d'une équipe de 8 personnes. Communication, priorisation, pédagogie sous contrainte.</p>
+      <p class="station__detail">Jusqu'à 13 personnes (High Tech et SAV, 2 magasins) : recrutement, formation continue, déclinaison des objectifs de vente et de services, pilotage du stock (volumétrie, démarque). Meilleurs chiffres de vente rapportés à la taille du magasin sur mes deux premières années.</p>
     </details>
   </li>
   <li class="station">

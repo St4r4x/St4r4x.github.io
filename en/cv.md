@@ -44,7 +44,10 @@ title: CV
     <span class="timetable-row__period">April 2015 &ndash; September 2023</span>
   </div>
   <ul>
-    <li>Managed a team of 8 people for 8 years: autonomy, prioritization, communication under pressure</li>
+    <li>Managed the High Tech and after-sales service team across 2 stores, up to 13 people: active recruitment, steered ongoing training (e-learning progress, product briefings after trade shows)</li>
+    <li>Cascaded my director's sales objectives down to the team: products and services (insurance, extended warranty)</li>
+    <li>Managed inventory against the two metrics my director challenged me on: volume and shrinkage rate (damaged products)</li>
+    <li>Best sales figures relative to store size in my first two years</li>
   </ul>
 </div>
 
