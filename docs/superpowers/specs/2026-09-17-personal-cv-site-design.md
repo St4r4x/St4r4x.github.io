@@ -75,6 +75,109 @@ No automated tests — purely static content, no logic to break. Visual
 check locally via `bundle exec jekyll serve` before pushing, and a check of
 the live GitHub Pages URL after the first deploy.
 
+## Visual design direction
+
+Established via Impeccable (`init` → `shape`; see `PRODUCT.md` for product
+truth and positioning). This is a confirmed **brief**, not a build: no
+direction contract, no `DESIGN.md`, no code yet — those get written during
+implementation.
+
+### Selection process
+
+A grounded 7-candidate list was ordered by resonance from the audience's
+real world (French AI/ML recruiters skimming applications, the pivot from
+8 years of retail management to AI engineering). The tool's roll assigned
+**"Plan de métro"** (below); it was weighed against 6 catalog challengers
+(Memphis Milano showroom, Weimar cabaret poster, broadcast teletext, a
+cathode-numeral gauze, raku ceramics, a transforming silk cape) on two
+axes — audience identification and product clarity. One challenger
+(teletext) held one axis and stayed competitive; the rest lost both and
+were declined. The user chose the assigned direction over the alternatives
+presented (my own top pick "Feuille de relève" / shift-handover clipboard,
+the competitive teletext challenger, and the standing-exit "grille suisse
+classique" safe default).
+
+### Direction: "Plan de métro"
+
+**World:** French transit/wayfinding signage (RATP-style network map) —
+heavy-weight grotesque display type, numbered interchange badges,
+station-on-line topology, navy/white ground with each career "line" as its
+own colored strand. Committed color strategy (one saturated line-color per
+career thread on a navy/white ground), not a restrained neutral+accent
+treatment — this is a Persuade surface and has permission for it.
+
+**Structural thesis:** career literalized as a transit line. Stations =
+roles (Fnac → GoodBarber → Missia); a "correspondance" (interchange) marks
+the retail→tech pivot; the current role is marked **"vous êtes ici"** and
+glows/pulses.
+
+**Sequence:** land on the network map (home, one viewport) → click a
+station for a popover (dates + one proof line) → ride the line to the CV
+page (full "horaire"/timetable format, one dense row per role) or the
+Projects page (a "correspondances" board, one project per exit-sign card
+with stack tags + GitHub link).
+
+**Focal moment:** the glowing "vous êtes ici" station on first viewport —
+a recruiter sees where he is now and how he got there in one glance,
+before any scroll.
+
+**Raises (donated from declined/competitive challengers):**
+- From the Weimar cabaret bill: stations carry a passed/current/upcoming
+  state (dimmed + struck for passed, lit for current, quiet for upcoming)
+  instead of uniform styling — a sequence device, not a decoration.
+- From the transforming silk cape: the FR/EN toggle is a decisive,
+  tactile "line switch" control that visibly reconfigures the whole map's
+  labels — not a small corner link.
+
+**Honest risk:** a "career journey" metaphor is not new for portfolio
+sites in general, but a literal, correctly-executed RATP-style map for a
+French recruiting audience that reads this system daily is distinctive
+rather than decorative, and does real orientation work.
+
+### Scope and boundaries
+
+- Fidelity: production-ready static pages, not a concept exploration.
+- Breadth: the 6 pages already scoped (Accueil/CV/Projets × FR/EN).
+- Interactivity: hover/click station popovers, the line-switch language
+  toggle. Small enough for vanilla JS with no framework or dependency.
+- Anti-goals (explicitly avoided by this pick): the generic dark
+  terminal/monospace "hacker portfolio" look, and the generic
+  white-background/blue-accent corporate résumé template.
+
+### States and ranges
+
+- Stations: 3 roles today (Fnac, GoodBarber, Missia); the map must scale
+  to a 4th+ future role without a redesign.
+- Projects: 6 items today (diggo, rag-lab, Kaggle Watson, Restaurant
+  Analytics, sacrebleu, pyserini); the correspondances board must handle
+  a growing list.
+- Language state (fr/en) persists across all 3 pages via the line-switch.
+- No loading/error states — fully static, no fetch.
+
+### Interaction and layout
+
+- Home: single-viewport SVG/CSS line diagram, stations positioned along
+  one line, "vous êtes ici" on the current one; click opens a popover
+  (role, dates, one proof line, link to the CV page anchor).
+- CV page: "horaire" timetable table, one row per role/section, dense
+  tabular numerals.
+- Projects page: correspondances board, one exit-sign-style card per
+  project.
+- Responsive: stations restack vertically on mobile — a real metro line
+  diagram already does this on a phone screen, so the pattern transfers
+  directly.
+
+### Constraints and open decisions
+
+- GitHub Pages/Jekyll only, no JS framework (per architecture above).
+- Exact grotesque typeface is an open build-time decision (RATP's Parif is
+  proprietary; pick a comparable free heavy grotesque during
+  implementation).
+- Station/line assets are hand-built SVG/CSS (diagrammatic, not
+  photographic) — no image generation needed.
+- Exact hex values, font name, and component code are decided during
+  implementation, not fixed in this brief.
+
 ## Open questions
 
 None blocking. Custom domain is an explicit non-goal for v1, revisit later
