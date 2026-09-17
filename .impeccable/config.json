@@ -1,3 +1,18 @@
 {
-  "buildPath": "code"
+  "buildPath": "code",
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "assets/css/style.css"
+        ],
+        "createdAt": "2026-09-17T08:19:00.736Z",
+        "reason": "confident false positive: .metro-line border-left is the literal transit line of the confirmed 'Plan de metro' direction (see docs/superpowers/specs design doc, Visual design direction section) rendering an ol as a line diagram, not a decorative card accent border - the detector's card heuristic is a mismatch here, not something the user was asked about directly"
+      }
+    ]
+  }
 }
