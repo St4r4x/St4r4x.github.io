@@ -128,7 +128,7 @@ git commit -m "chore: scaffold Jekyll site with root language redirect"
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page.title }} — Arnaud Thery</title>
+  <title>{{ page.title }} &middot; Arnaud Thery</title>
   <meta name="description" content="{{ site.description }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -363,7 +363,7 @@ title: Accueil
 
 <div class="hero">
 
-# Arnaud Thery
+<h1>Arnaud Thery</h1>
 
 <p class="hero__tagline">Ingénieur IA/ML chez Missia. Huit ans de management d'équipe avant ça, chez Fnac.</p>
 
@@ -448,7 +448,7 @@ title: Home
 
 <div class="hero">
 
-# Arnaud Thery
+<h1>Arnaud Thery</h1>
 
 <p class="hero__tagline">AI/ML Engineer at Missia. Before that, eight years managing a team at Fnac.</p>
 
@@ -591,11 +591,11 @@ title: CV
 
 <div class="timetable">
 
-# CV
+<h1>CV</h1>
 
 <p class="timetable__intro">Le détail, arrêt par arrêt.</p>
 
-## Expérience
+<h2>Expérience</h2>
 
 <div class="timetable-row">
   <div class="timetable-row__head">
@@ -632,7 +632,7 @@ title: CV
   </ul>
 </div>
 
-## Compétences
+<h2>Compétences</h2>
 
 <dl class="skills-grid">
   <dt>IA/ML</dt>
@@ -649,7 +649,7 @@ title: CV
   <dd>Management d'équipe (8 ans), autonomie et prise de décision, communication transverse, gestion de la pression</dd>
 </dl>
 
-## Formation
+<h2>Formation</h2>
 
 <ul class="edu-list">
   <li><span>Master of Science BIHAR (Big Data, IA) &middot; Aflokkat / ESTIA</span><span>2024&ndash;2026</span></li>
@@ -658,7 +658,7 @@ title: CV
   <li><span>Développeur en Intelligence Artificielle (RNCP 35770) &middot; Aflokkat / ESIA</span><span>2022&ndash;2023</span></li>
 </ul>
 
-## Certifications
+<h2>Certifications</h2>
 
 <ul class="cert-list">
   <li><span>Google Project Management &middot; Google Digital Academy</span><span>2025</span></li>
@@ -671,9 +671,9 @@ title: CV
   <li><span>MCP Fundamentals &middot; Hugging Face</span><span>2025</span></li>
 </ul>
 
-## Langues
+<h2>Langues</h2>
 
-Français (natif) &middot; Anglais (professionnel)
+<p>Français (natif) &middot; Anglais (professionnel)</p>
 
 </div>
 ```
@@ -715,11 +715,11 @@ title: CV
 
 <div class="timetable">
 
-# CV
+<h1>CV</h1>
 
 <p class="timetable__intro">The detail, stop by stop.</p>
 
-## Experience
+<h2>Experience</h2>
 
 <div class="timetable-row">
   <div class="timetable-row__head">
@@ -756,7 +756,7 @@ title: CV
   </ul>
 </div>
 
-## Skills
+<h2>Skills</h2>
 
 <dl class="skills-grid">
   <dt>LLMs &amp; GenAI</dt>
@@ -771,7 +771,7 @@ title: CV
   <dd>Team Leadership (8 yrs), Ownership and Autonomy, Cross-functional Communication, Decision-Making Under Pressure</dd>
 </dl>
 
-## Education
+<h2>Education</h2>
 
 <ul class="edu-list">
   <li><span>MSc in AI (Big Data, AI, Digital Humanities) &middot; Aflokkat / ESIA</span><span>2024&ndash;2026</span></li>
@@ -779,7 +779,7 @@ title: CV
   <li><span>AI Developer Certification &middot; Aflokkat / ESIA</span><span>2022&ndash;2023</span></li>
 </ul>
 
-## Certifications
+<h2>Certifications</h2>
 
 <ul class="cert-list">
   <li><span>Google Cybersecurity &middot; Google Digital Academy</span><span>2025</span></li>
@@ -792,9 +792,9 @@ title: CV
   <li><span>Professional Scrum Master I (PSM I) &middot; Scrum.org</span><span>2025</span></li>
 </ul>
 
-## Languages
+<h2>Languages</h2>
 
-French (native) &middot; English (professional)
+<p>French (native) &middot; English (professional)</p>
 
 </div>
 ```
@@ -883,7 +883,7 @@ title: Projets
 
 <div class="timetable">
 
-# Projets
+<h1>Projets</h1>
 
 <p class="timetable__intro">Les correspondances : là où le code sort de la ligne principale.</p>
 
@@ -976,7 +976,7 @@ title: Projects
 
 <div class="timetable">
 
-# Projects
+<h1>Projects</h1>
 
 <p class="timetable__intro">The interchanges: where the code leaves the main line.</p>
 
