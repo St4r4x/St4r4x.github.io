@@ -54,18 +54,18 @@ title: CV
 <h2>Compétences</h2>
 
 <dl class="skills-grid">
-  <dt>IA/ML</dt>
-  <dd>LLMs, RAG, LangChain, LangGraph, Machine Learning, HuggingFace Transformers, PyTorch, Scikit-learn, Pandas, ONNX, TensorRT, CUDA</dd>
-  <dt>Backend &amp; APIs</dt>
-  <dd>Python, Java/Spring Boot, FastAPI, REST APIs, Django</dd>
-  <dt>Data &amp; Bases</dt>
-  <dd>PostgreSQL, MongoDB, Elasticsearch, SQLite, Qdrant, PowerBI</dd>
-  <dt>Cloud &amp; DevOps</dt>
-  <dd>AWS, Docker, CI/CD, GitHub Actions, MLflow, Terraform</dd>
-  <dt>Finance</dt>
-  <dd>Dérivés, produits exotiques, CDS, Equity</dd>
-  <dt>Leadership &amp; Collaboration</dt>
-  <dd>Management d'équipe (8 ans), autonomie et prise de décision, communication transverse, gestion de la pression</dd>
+  <div><dt>IA/ML</dt>
+  <dd>LLMs, RAG, LangChain, LangGraph, Machine Learning, HuggingFace Transformers, PyTorch, Scikit-learn, Pandas, ONNX, TensorRT, CUDA</dd></div>
+  <div><dt>Backend &amp; APIs</dt>
+  <dd>Python, Java/Spring Boot, FastAPI, REST APIs, Django</dd></div>
+  <div><dt>Data &amp; Bases</dt>
+  <dd>PostgreSQL, MongoDB, Elasticsearch, SQLite, Qdrant, PowerBI</dd></div>
+  <div><dt>Cloud &amp; DevOps</dt>
+  <dd>AWS, Docker, CI/CD, GitHub Actions, MLflow, Terraform</dd></div>
+  <div><dt>Finance</dt>
+  <dd>Dérivés, produits exotiques, CDS, Equity</dd></div>
+  <div><dt>Leadership &amp; Collaboration</dt>
+  <dd>Management d'équipe (8 ans), autonomie et prise de décision, communication transverse, gestion de la pression</dd></div>
 </dl>
 
 <h2>Formation</h2>

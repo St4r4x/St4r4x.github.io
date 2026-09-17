@@ -54,16 +54,16 @@ title: CV
 <h2>Skills</h2>
 
 <dl class="skills-grid">
-  <dt>LLMs &amp; GenAI</dt>
-  <dd>LLMs, RAG, LangChain, LangGraph, Qdrant, Fine-tuning, Prompt Engineering, HuggingFace Transformers, Sentence-transformers</dd>
-  <dt>Backend &amp; APIs</dt>
-  <dd>Python, FastAPI, Django, REST APIs, Streamlit, Pytest</dd>
-  <dt>MLOps &amp; Infra</dt>
-  <dd>Docker, CI/CD, GitHub Actions, MLflow, AWS SageMaker, Optuna</dd>
-  <dt>Computer Vision</dt>
-  <dd>YOLOv8, VideoMAE, PyTorch, OpenMMLab, RTMPose, Pandas, ONNX, TensorRT, CUDA</dd>
-  <dt>Leadership &amp; Collaboration</dt>
-  <dd>Team Leadership (8 yrs), Ownership and Autonomy, Cross-functional Communication, Decision-Making Under Pressure</dd>
+  <div><dt>LLMs &amp; GenAI</dt>
+  <dd>LLMs, RAG, LangChain, LangGraph, Qdrant, Fine-tuning, Prompt Engineering, HuggingFace Transformers, Sentence-transformers</dd></div>
+  <div><dt>Backend &amp; APIs</dt>
+  <dd>Python, FastAPI, Django, REST APIs, Streamlit, Pytest</dd></div>
+  <div><dt>MLOps &amp; Infra</dt>
+  <dd>Docker, CI/CD, GitHub Actions, MLflow, AWS SageMaker, Optuna</dd></div>
+  <div><dt>Computer Vision</dt>
+  <dd>YOLOv8, VideoMAE, PyTorch, OpenMMLab, RTMPose, Pandas, ONNX, TensorRT, CUDA</dd></div>
+  <div><dt>Leadership &amp; Collaboration</dt>
+  <dd>Team Leadership (8 yrs), Ownership and Autonomy, Cross-functional Communication, Decision-Making Under Pressure</dd></div>
 </dl>
 
 <h2>Education</h2>
